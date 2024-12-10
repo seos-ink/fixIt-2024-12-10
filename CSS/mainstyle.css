@@ -1,0 +1,88 @@
+:root{
+    --CorBackground1: #363d69;
+    --CardBackground1: rgb(86, 89, 179);
+}
+
+body{
+    margin: auto;
+    padding: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #363d69;
+    color: #ffffff;
+}
+.box-1 {
+    width: 97%;
+    min-width: 200px;
+    margin: 1%;
+    background-color: #f00;
+    height: 300px;
+    float: left;
+}
+
+body main {
+    padding: 5px;
+
+}
+.card{
+    background-color: var(--CardBackground1);
+    border: 3px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+
+    width: 250px;
+    height: 250px;
+
+    margin: 10px;
+    text-align: center;
+}
+
+@media screen and (min-width: 720px) {
+    .box-1{
+        width: 48%;
+        height: 150px;
+    }
+    .card{
+        width: 48%;
+        height: 350px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .box-1{
+        width: 31%;
+        height: 250px;
+    }
+    .card{
+        width: 31%;
+        height: 350px;
+    }
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+  /*  border: #f00 solid;*/
+    padding: 5px;
+    text-align: center;
+    clear: both;
+
+}
+
+.home-section h1{
+    text-align: center;
+    font-size: 80px;
+}
+
+.home-section p, .home-section a{
+    text-align: left;
+    padding: 15px;
+}
+
+.container img{
+    padding: 0;
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.container{
+    display: flex;
+}
